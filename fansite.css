@@ -1,0 +1,340 @@
+/* page accueil */
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+}
+
+header img {
+    height: 60px;
+    z-index: 10;
+    padding: 10px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style-type: none;
+    width: 80%;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    transition: .3s;
+}
+
+header a:hover {
+    background-color: white;
+}
+
+#imageintroductioncontent {
+    width: 45%;
+    margin: 10px 10px 10px 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.intropart {
+    display: flex;
+    align-items: center;
+}
+
+.introductioncontent {
+    margin: 10px 10px 10px 10px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+}
+
+.menufooter a {
+    color: white;
+    text-decoration: none;
+}
+
+.menufooter {
+    display: inline-block
+}
+
+.img1 {
+    width: 40%;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.imgsocialcontent {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastresults {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;  
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* page pilote favori */
+.main2 p {
+    margin: 0;
+}
+
+.rightcontentintroduction {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.rightcontentintroduction p {
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.leftcontentintroduction {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.leftcontentintroduction p {
+    margin: 10px 10px 10px 10px;
+}
+
+.rightcontentintroduction p > a {
+    text-decoration-color: red;
+    color: red;
+}
+
+.dr3bakou2017 {
+   width: 400px; 
+   margin: 10px 10px 10px 10px;
+}
+
+.endcontentintroduction {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.endcontentintroduction p {
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.dr3renault {
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+}
+
+.dr3monza2021 {
+    width: 420px;
+    margin: 10px 10px 10px 10px;
+}
+
+.endbiscontentintroduction {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.dr3redbull2023 {
+    width: 450px;
+    margin: 10px 10px 10px 10px;
+}
+
+.endbiscontentintroduction p {
+    margin: 10px 10px 10px 10px;
+}
+
+.endbiscontentintroduction p > a {
+    text-decoration-color: white;
+    color: white;
+}
+
+/* page contact */
+
+.contactezmoi {
+    margin-bottom: 20px;
+}
+
+.contactezmoi h1 {
+    text-align: center;
+}
+
+.contactezmoi p {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+ 
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: 1px solid #999;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.festivitemax p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.festivitemax {
+    margin-bottom: 45px;
+    margin-top: 55px;
+}
+
+/* page liens utiles */
+
+.t1liensutiles {
+   text-align: center; 
+}
+
+.newsutiles {
+    display: flex;
+    background-color: black;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.lineup {
+    background-color: red;
+    margin: 20px 20px 20px 20px;
+    border-radius: 15px;
+}
+
+.lineup img {
+    width: 650px;
+    margin: 10px 10px 10px 10px;
+}
+
+.lineup p {
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.ricciardo2023 {
+    background-color: red;
+    margin: 20px 20px 20px 20px;
+    border-radius: 15px;
+}
+
+.ricciardo2023 img {
+    width: 680px;
+    margin: 10px 10px 10px 10px;
+}
+
+.ricciardo2023 p {
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.liensrs {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.liensrs a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.liensrs p {
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.liensrs ul {
+    color: white;
+    margin: 10px 10px 10px 10px;
+}

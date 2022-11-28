@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fansite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="./images/logof1.png" alt="logoformule1">
+        <nav>
+            <a href="./index.html">Accueil</a>
+            <a href="./favoritedriver.html">Pilote favori</a>
+            <a href="./liensutiles.html">Liens utiles</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contactezmoi">
+            <h1>Contactez-moi</h1>
+            <p>Un problème, une question ou besoin d'une précision ? N'hésitez pas à me contacter en cas de besoin !</p>
+            <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" name="user_name" id="name">
+            </div>
+            <div>
+                <label for="mail">Votre e-mail</label>
+                <input type="email" name="user_mail" id="email">
+            </div>
+            <div>
+                <label for="sujet">À propos de </label>
+                <select name="sujet" id="sujet" required>
+                    <option value="">Choisissez le sujet de votre message</option>
+                    <option value="">Problème avec une section du site</option>
+                    <option value="">Question à propos du contenu</option>
+                    <option value="">Autre</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea name="user_message" id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+            </form>
+        </div>
+        <section class="festivitemax">
+            <p>Merci d'avoir pris le temps de lire mon site, je suis disposée à tout changement. N'hésitez pas en cas de besoin à remplir ce super
+                formulaire et à m'envoyer vos recommandations, vos remarques ou votre avis !! Ce sera avec plaisir de faire évoluer ce fansite avec
+                vos remarques !!</p>
+        </section>
+    </main>
+    <footer>
+        <section class="imgsocialcontent">
+            <img src="./images/logof1.png" alt="logof1" class="img1">
+            <a href="https://www.facebook.com/Formula1/"><img src="./images/facebook.png" alt="logofacebook"></a>
+            <a href="https://www.instagram.com/f1/"><img src="./images/instagram.png" alt="logoinstagram"></a>
+            <a href="https://twitter.com/F1"><img src="./images/twitter.png" alt="logotwitter"></a>
+            <a href="https://www.youtube.com/c/F1/videos"><img src="./images/youtube.png" alt="logoyoutube"></a>
+        </section>
+        <section class="menufooter">
+            <ul>
+                <li><a href="#">Formula one site fan</a></li>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./favoritedriver.html">Pilote favori</a></li>
+                <li><a href="./liensutiles.html">Liens utiles</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html> 
